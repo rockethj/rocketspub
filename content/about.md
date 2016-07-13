@@ -3,7 +3,7 @@ categories:
 - 读书笔记
 - 技术文章
 - 思考感悟
-date: 2016-07-13 T01:00:38+08:00
+date: 2016-07-13T01:00:38+08:00
 description: "测试一下"
 keywords:
 - xxx
