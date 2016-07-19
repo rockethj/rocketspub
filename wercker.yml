@@ -2,7 +2,8 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "HEAD"
+        version: "0.14"
+        flags: --buildDrafts=true
 deploy:
        steps:   
            - install-packages:
