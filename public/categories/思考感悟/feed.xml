@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>思考感悟 on 火箭修改测试</title>
+    <link>http://rockets.pub/categories/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/</link>
+    <description>Recent content in 思考感悟 on 火箭修改测试</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>Copyright (c) 2016. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 13 Jul 2016 01:00:38 +0800</lastBuildDate>
+    <atom:link href="http://rockets.pub/categories/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/feed/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about update</title>
+      <link>http://rockets.pub/about/</link>
+      <pubDate>Wed, 13 Jul 2016 01:00:38 +0800</pubDate>
+      
+      <guid>http://rockets.pub/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;rocket-测试自动发布和部署&#34;&gt;Rocket 测试自动发布和部署&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
