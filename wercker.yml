@@ -2,15 +2,28 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.14"
+        version: "0.15"
         theme: hugo-rapid-theme
-        flags: --buildDrafts=true
-deploy:
-       steps:   
-           - install-packages:
-               packages: git ssh-client
+       flags: --buildDrafts=true
+    - script:
+      name: ls stuff
+      code: |
+        ls -haltr /pipeline/source/public
 
-           - lukevivier/gh-pages@0.2.1:
+
+deploy:
+  steps:  
+    - script:
+        name: ls output
+        code: |
+          ls -haltr /pipeline/output
+    - script:
+        name: ls source
+        code: |
+          ls -haltr /pipeline/source    
+    - install-packages:
+               packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
                token: $GIT_TOKEN
                domain: rockets.pub
                basedir: public  
