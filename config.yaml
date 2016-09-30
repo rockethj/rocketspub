@@ -1,4 +1,4 @@
-title: "火箭修改测试"
+title: "火箭发布"
 languageCode: "zh-CN"
 baseurl: "http://rockets.pub"
 theme: "hugo-rapid-theme"
@@ -18,7 +18,7 @@ Taxonomies:
   tag: "tags"
   category: "categories"
 params:
-  CopyrightHTML: "Copyright &#xA9; 2015. All Rights Reserved."
+  CopyrightHTML: "Copyright &#xA9; 2016. All Rights Reserved."
   GitHubUser: "rockethj"
   SidebarRecentLimit: 5
   DateForm : "2016年01月02日"
@@ -28,10 +28,10 @@ params:
   Categories:
     - "读书笔记"
     - "技术文章"
-    - "思考感悟"
+    - "和坚思辨"
 menu:
   main:
-      - Name: "归档"
+      - Name: "所有"
         Pre: "<i class='fa fa-heart'></i>"
         Weight: -110
         Identifier: "post"
