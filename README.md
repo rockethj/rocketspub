@@ -1,3 +1,4 @@
-# rocketspub
+# rocket.spub
 Rocket Published Blog， powered by Hugo
-Try SSH
+
+

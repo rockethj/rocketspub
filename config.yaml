@@ -21,13 +21,12 @@ params:
   CopyrightHTML: "Copyright &#xA9; 2016. All Rights Reserved."
   GitHubUser: "rockethj"
   SidebarRecentLimit: 5
-  DateForm : "2016年01月02日"
+  DateForm : "2016-01-02"
   Tagline: "火箭发布"
   Description: ""
   Keywords: "脑书"
   Categories:
     - "读书笔记"
-    - "技术文章"
     - "和坚思辨"
 menu:
   main:
